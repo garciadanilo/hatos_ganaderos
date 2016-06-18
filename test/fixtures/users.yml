@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_type_id: 
+  nombres: MyString
+  apellidos: MyString
+  email: MyString
+  deleted: false
+
+two:
+  user_type_id: 
+  nombres: MyString
+  apellidos: MyString
+  email: MyString
+  deleted: false
