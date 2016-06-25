@@ -1,0 +1,6 @@
+digraph models_diagram {
+	graph[overlap=false, splines=true, bgcolor="none"]
+	"User" [shape=Mrecord, label="{User|id :INTEGER\luser_type_id :integer\lnombres :varchar(255)\lapellidos :varchar(255)\lemail :varchar(255)\ldeleted :boolean\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"UserType" [shape=Mrecord, label="{UserType|id :INTEGER\lnombre :varchar(255)\ldescripcion :text\ldeleted :boolean\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"UserType" -> "User" [arrowtail=odot, arrowhead=crow, dir=both color="#075EA2"]
+}

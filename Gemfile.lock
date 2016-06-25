@@ -57,6 +57,7 @@ GEM
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
+    railroady (1.4.2)
     rails (4.1.10)
       actionmailer (= 4.1.10)
       actionpack (= 4.1.10)
@@ -112,6 +113,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  railroady
   rails (= 4.1.10)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
